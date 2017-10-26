@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+
+.oneText {
+  margin: 0;
+  font-weight: 300;
+  font-size: 5em;
+  line-height: 1.2em;
+  font-family: 'Poiret One', cursive;
+}
+
+.twoText {
+  margin: 0;
+  font-weight: 200;
+  font-size: 1.9em;
+  line-height: 1.2em;
+  font-family: 'Poiret One', cursive;
+}
+
+.inner p {
+  margin: 0;
+  font-size: 2.5em;
+  line-height: 1.5em;
+  font-family: 'Poiret One', cursive;
+}
+
+
+
+
+.inner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  z-index: 10;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+  -webkit-animation: fade-in 0.75s 0.25s ease-in forwards;
+          animation: fade-in 0.75s 0.25s ease-in forwards;
+}
+
+.caption1  h1{
+  text-align: left;
+  position: relative;
+  margin-left: 40px;
+  margin-bottom: -10px;
+  font-size: 3.6em;
+  font-family: 'Poiret One', cursive;
+
+}
+
+.caption2 h1{
+  text-align: left;
+  position: relative;
+  margin-left: 40px;
+  margin-bottom: -35px;
+  font-size: 3.6em;
+  font-family: 'Poiret One', cursive;
+
+}
+
+.container p {
+  text-align: left;
+  position: relative;
+  margin-bottom: -2px;
+  margin-left: -40px;
+  font-size: 3.6em;
+  font-family: 'Poiret One', cursive;
+
+
+}
+
+/* SETTING ALL START*/
+body {
+  background: #f5f5f5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  font-size: 0.7em;  
+  cursor: pointer;
+  color: #000000;
+  font-family: 'Poiret One', cursive;
+}
+
+
+
+/* SETTING ALL END*/
+
+
+
+
+/* Preloader On*/
+#p_prldr{
+position: fixed;
+left: 0;
+top: 0;
+right:0;
+bottom:0;
+background: #474747;
+z-index: 30;}
+
+.contpre small{font-size:25px;}
+ 
+.contpre{
+width: 250px;
+height: 100px;
+position: absolute;
+left: 50%;top: 48%;
+margin-left:-125px;
+margin-top:-75px;
+
+font-size:40px;
+letter-spacing:-2px;
+text-align:center;
+line-height:35px;}
+ 
+#p_prldr .svg_anm {
+position: absolute;
+width: 41px;
+height: 41px;
+background: url(../imgsite/prld.svg) center center no-repeat;
+background-size:41px;    
+margin: 70px 0 0 -16px;}
+/* Preloader Off*/
+
+/*Header On*/
+header {
+  background: #111;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+
+nav ul {
+  float: right;
+  list-style: none;
+  padding: 25px;
+  margin: 0;
+  font-size: 1.7em;
+  font-weight: lighter;
+  font-family: 'Poiret One', cursive;
+  color: white;
+}
+
+
+
+nav li {
+  float: left;
+  padding-right: 20px;
+  font-family: 'Poiret One', cursive;
+}
+
+
+nav a {
+  font-size: 0.9em;
+  color: #fff;
+  text-decoration: none;
+  margin: 5px 0 0 20px;
+  display: block;
+}
+nav a:hover {
+  color: #ededed;
+}
+
+
+
+
+nav.scrolled {
+  background: rgba(17, 17, 17, 0.9);
+}
+
+.headline {
+  position: relative;
+  height: 700px;
+  color: #fff;
+  text-align: center;
+  background: url("https://pp.userapi.com/c841222/v841222928/20d0f/hNVOXm84HHk.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.headline:after {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(17, 17, 17, 0.5);
+}
+
+
+
+
+
+
+
+/*Header Off*/
+
+
+
+/*oboMne On*/
+
+  
+  .oboMne h2 {
+    color: #000;
+    margin-bottom: 10px;
+    font-weight: 900;
+  }
+
+  .oboMne {
+    text-align: left;
+    font-size: 1.6em;
+    width: 1136px; 
+    margin: auto; 
+    line-height: 1.4em;
+  }
+
+  
+  .layer1 {
+
+      width: 430px;
+      float: left; 
+  }
+
+  .layer1 img {
+  position: relative;
+  margin: 29px 0 0 0;
+  }
+
+   .layer2 { 
+    padding: 5px; /* Поля вокруг текста */
+    width: 420px; /* Ширина слоя */
+    float: left; /* Обтекание по правому краю */
+    font-size: 1.2em;
+    font-weight: 600;
+   }
+
+  .layer2 p{
+    margin-bottom: -10px;
+  }
+ 
+   .layer3 {
+   
+    padding: 5px; /* Поля вокруг текста */
+    width: 286px; /* Ширина слоя */
+    float: left; /* Обтекание по правому краю */
+    font-size: 1.2em;
+    font-weight: 600;
+   }
+
+
+   .clear {
+    clear: left; /* Отмена обтекания */
+   }
+
+
+/*oboMne Off*/
+
+
+
+.slider-pro {
+    font-size: 0.2em;
+  font-family: 'Poiret One', cursive;
+}
+
+
+footer {
+  width: 100%;
+  float: left;
+  padding: 1%;
+  background-color: #111111;
+  margin-top: 10px;
+}
+
+
+.vse_prava {
+  width: 50%;
+  font-size: 1.1em; 
+  text-align: left;
+}
+
+
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
